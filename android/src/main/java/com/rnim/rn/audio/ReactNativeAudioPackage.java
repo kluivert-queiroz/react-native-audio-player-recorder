@@ -30,7 +30,6 @@ public class ReactNativeAudioPackage implements ReactPackage {
      * @param reactContext
      * @return a list of view managers that should be registered with {UIManagerModule}
      */
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
     }
